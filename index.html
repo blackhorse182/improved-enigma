@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>RPG - Repousseur de Dragon</title>
+  </head>
+  <body>
+    <div id="game">
+      <div id="stats">
+        <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+        <span class="stat">Santé: <strong><span id="healthText">100</span></strong></span>
+        <span class="stat">Or: <strong><span id="goldText">50</span></strong></span>
+      </div>
+      <div id="controls">
+        <button id="button1">Aller à la boutique</button>
+        <button id="button2">Descendre dans la grotte</button>
+        <button id="button3">Affronter le dragon</button>
+      </div>
+      <div id="monsterStats">
+        <span class="stat">Nom du Monstre: <strong><span id="monsterName"></span></strong></span>
+        <span class="stat">Santé: <strong><span id="monsterHealth"></span></strong></span>
+      </div>
+      <div id="text">
+        Bienvenue dans Dragon Slayer. Vous devez vaincre le dragon qui empêche les gens de quitter la ville. Vous êtes sur la place de la ville. Où voulez-vous aller ? Utilisez les boutons ci-dessus.
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <div id="knight-animation">
+      <img src="knight-sprite.png" alt="Chevalier" id="knight">
+    </div>
+    <audio id="background-music" src="castlevania-music.mp3" loop></audio>
+  </body>
+</html>
